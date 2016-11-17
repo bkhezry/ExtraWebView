@@ -32,7 +32,7 @@ public class ExtraWebViewCreator {
     private boolean _voteIcon = false;
     private int _color;
     private String _defaultFontPath;
-    private String _themeName;
+    private String _themeName = "light";
 
     public ExtraWebViewCreator() {
         this.viewOption = new ViewOption();
