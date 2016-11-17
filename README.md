@@ -8,14 +8,16 @@
 - **full screen** mode
 - share URL **easy way**
 - search in page support
-- with bookmark and vote icon that handle with EventBus library
+- with **Bookmark** and **Vote** icon that handle with **EventBus** library
 
 #Preview
 ##Demo
-
+You can download the latest demo APK from here: https://github.com/bkhezry/ExtraWebView/blob/master/assets/DemoExtraWebView-last.apk
 
 ##Screenshots
-
+<img src="assets/screenshot_1.png" />
+<img src="assets/screenshot_2.png" />
+<img src="assets/screenshot_3.png" width="400px"/>
 
 #Setup
 ##1. Provide the gradle dependency
