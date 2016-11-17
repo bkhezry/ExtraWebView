@@ -1,6 +1,6 @@
 # Extra WebView Library
 ##the flexible and easy to use WebView library with beautiful themes.
-
+[![](https://jitpack.io/v/bkhezry/ExtraWebView.svg)](https://jitpack.io/#bkhezry/ExtraWebView)
 ###A quick overview
 - compatible with **API Level 17**
 - **RTL** support
@@ -34,7 +34,7 @@ allprojects {
 Add the dependency:
 ```gradle
 dependencies {
-	compile 'com.github.bkhezry:ExtraWebView:1.2.0'
+	compile 'com.github.bkhezry:ExtraWebView:1.2.1'
 }
 ```
 
