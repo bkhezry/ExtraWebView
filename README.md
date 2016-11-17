@@ -8,7 +8,7 @@
 - **full screen** mode
 - share URL **easy way**
 - search in page support
-- with bookmark and vote icon that handle with EventBus librarsssy
+- with bookmark and vote icon that handle with EventBus library
 
 #Preview
 ##Demo
