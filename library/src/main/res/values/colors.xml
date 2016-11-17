@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2015 Ha Duy Trung
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteT70">#B3FFFFFF</color>
+    <color name="blackT87">#DE000000</color>
+    <color name="blackT12">#1F000000</color>
+    <color name="grey100">#F5F5F5</color>
+    <color name="grey500">#9E9E9E</color>
+    <color name="grey800">#424242</color>
+    <color name="grey900">#212121</color>
+    <color name="redA100">#FF8A80</color>
+    <color name="redA200">#FF5252</color>
+    <color name="lightBlueA700">#0091EA</color>
+    <color name="teal50">#E0F2F1</color>
+    <color name="teal100">#B2DFDB</color>
+    <color name="teal300">#4DB6AC</color>
+    <color name="teal400">#26A69A</color>
+    <color name="teal600">#00897B</color>
+    <color name="teal900">#004D40</color>
+    <color name="orange50">#FFF3E0</color>
+    <color name="orange100">#FFE0B2</color>
+    <color name="orange300">#FFB74D</color>
+    <color name="orange400">#FFA726</color>
+    <color name="brown400">#8D6E63</color>
+    <color name="brown800">#4E342E</color>
+
+    <!-- http://ethanschoonover.com/solarized -->
+    <color name="solarizedBase01">#586e75</color>
+    <color name="solarizedBase02">#073642</color>
+    <color name="solarizedBase03">#002b36</color>
+    <color name="solarizedOrange">#cb4b16</color>
+    <color name="solarizedBase1">#93a1a1</color>
+    <color name="solarizedBase2">#eee8d5</color>
+    <color name="solarizedBase3">#fdf6e3</color>
+
+    <!-- brand color: orange -->
+    <color name="colorPrimary">#FF9800</color>
+    <color name="colorPrimaryDark">#F57C00</color>
+    <color name="colorPrimaryLight">#FFE0B2</color>
+    <!-- accent color: red -->
+    <color name="colorAccent">#FF5252</color>
+    <!-- text color: white -->
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="textColorSecondary">#9E9E9E</color>
+    <!-- inverse text color: 87% black -->
+    <color name="textColorPrimaryInverse">#DE000000</color>
+    <color name="textColorSecondaryInverse">#9E9E9E</color>
+
+    <color name="colorPrimaryInverse">#DE000099</color>
+    <color name="colorPrimaryDarkInverse">#9E9E9E</color>
+    <color name="colorAccentInverse">#9E009E</color>
+</resources>

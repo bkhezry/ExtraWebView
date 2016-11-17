@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Materialistic</string>
+    <string name="title_activity_item">Comments</string>
+    <string name="filter_title_item">Materialistic</string>
+    <string name="view_in_browser">View in external browser</string>
+    <string name="share">Share</string>
+    <string name="clear_all">Clear all</string>
+    <string name="title_activity_search">Search</string>
+    <string name="article">Article</string>
+    <string name="save">Save</string>
+    <string name="vote_up">Vote up</string>
+    <string name="more">More</string>
+    <string name="display_options">Display options</string>
+    <string name="find_in_page">Find in page</string>
+    <string name="no_matches">No matches found</string>
+    <string name="back">Back</string>
+    <string name="forward">Forward</string>
+    <string name="refresh">Refresh</string>
+    <string name="exit_fullscreen">Exit</string>
+    <string name="next">Next</string>
+    <string name="menu.search">Search</string>
+    <string name="pref_theme_title">light</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_black">Black</string>
+    <string name="theme_sepia">Sepia</string>
+    <string name="theme_green">Green</string>
+    <string name="theme_solarized_dark">Solarized Dark</string>
+    <string name="theme_solarized">Solarized</string>
+</resources>

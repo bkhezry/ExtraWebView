@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- =================== -->
+    <!-- Application dataGenerators  -->
+    <!-- =================== -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- color palette -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/whiteT70</item>
+        <item name="colorAccent">@color/redA200</item>
+        <item name="colorCardBackground">@color/grey100</item>
+        <item name="colorCardHighlight">@color/orange100</item>
+        <item name="android:textColorPrimary">@color/blackT87</item>
+        <item name="android:textColorSecondary">@color/grey500</item>
+
+        <!-- default dataGenerator override -->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:textColorTertiary">?android:textColorPrimary</item>
+        <item name="android:textColorLink">?colorAccent</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">?colorPrimary</item>
+        <item name="preferenceTheme">@style/AppPreferenceThemeOverlay</item>
+        <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu.Overflow</item>
+        <item name="drawerArrowStyle">@style/AppDrawerArrowToggle</item>
+
+        <!-- custom themed attributes -->
+        <item name="titleTextSize">@dimen/text_size_medium</item>
+        <item name="subtitleTextSize">@dimen/text_size_small</item>
+        <item name="contentTextSize">@dimen/text_size_small</item>
+        <item name="backgroundDrawerHeader">@drawable/bg_drawer_light</item>
+    </style>
+
+    <style name="BaseAppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <!-- color palette -->
+        <item name="colorPrimary">@color/grey900</item>
+        <item name="colorPrimaryDark">@color/blackT87</item>
+        <item name="colorAccent">@color/redA100</item>
+        <item name="colorCardBackground">@color/grey900</item>
+        <item name="colorCardHighlight">@color/grey800</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/grey500</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <!-- default dataGenerator override -->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:textColorTertiary">?android:textColorPrimary</item>
+        <item name="android:textColorLink">?colorAccent</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">?colorPrimary</item>
+        <item name="preferenceTheme">@style/AppPreferenceThemeOverlay</item>
+        <item name="popupMenuStyle">@style/Widget.AppCompat.PopupMenu.Overflow</item>
+        <item name="drawerArrowStyle">@style/AppDrawerArrowToggle</item>
+
+        <!-- custom themed attributes -->
+        <item name="titleTextSize">@dimen/text_size_medium</item>
+        <item name="subtitleTextSize">@dimen/text_size_small</item>
+        <item name="contentTextSize">@dimen/text_size_small</item>
+        <item name="backgroundDrawerHeader">@drawable/bg_drawer_dark</item>
+    </style>
+
+    <style name="AppTheme.Translucent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+    <style name="AppTheme" parent="BaseAppTheme">
+
+    </style>
+
+    <style name="AppTheme.Dark" parent="BaseAppTheme.Dark">
+
+    </style>
+
+    <style name="AppTheme.Dark.Translucent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="textEmptyStyle">
+        <item name="android:textAppearance">@style/TextAppearance.App.Empty</item>
+        <item name="android:padding">@dimen/activity_vertical_margin</item>
+        <item name="android:drawablePadding">@dimen/padding</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Sepia" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/orange300</item>
+        <item name="colorPrimaryDark">@color/orange400</item>
+        <item name="colorCardBackground">@color/orange50</item>
+        <item name="android:textColorPrimary">@color/brown800</item>
+        <item name="android:textColorSecondary">@color/brown400</item>
+    </style>
+
+    <style name="Green" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/teal300</item>
+        <item name="colorPrimaryDark">@color/teal400</item>
+        <item name="colorCardBackground">@color/teal50</item>
+        <item name="colorCardHighlight">@color/teal100</item>
+        <item name="android:textColorPrimary">@color/teal900</item>
+        <item name="android:textColorSecondary">@color/teal600</item>
+    </style>
+
+    <style name="Solarized" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/orange300</item>
+        <item name="colorPrimaryDark">@color/orange400</item>
+        <item name="colorAccent">@color/solarizedOrange</item>
+        <item name="colorCardBackground">@color/solarizedBase3</item>
+        <item name="colorCardHighlight">@color/solarizedBase2</item>
+        <item name="android:textColorPrimary">@color/solarizedBase01</item>
+        <item name="android:textColorSecondary">@color/solarizedBase1</item>
+    </style>
+
+    <style name="Solarized.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/grey900</item>
+        <item name="colorPrimaryDark">@color/blackT87</item>
+        <item name="colorAccent">@color/solarizedOrange</item>
+        <item name="colorCardBackground">@color/solarizedBase03</item>
+        <item name="colorCardHighlight">@color/solarizedBase02</item>
+        <item name="android:textColorPrimary">@color/solarizedBase2</item>
+        <item name="android:textColorSecondary">@color/solarizedBase1</item>
+    </style>
+</resources>

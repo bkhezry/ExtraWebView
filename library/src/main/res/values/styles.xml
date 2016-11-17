@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2015 Ha Duy Trung
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <!-- ========================= -->
+    <!-- Action bar/toolbar styles -->
+    <!-- ========================= -->
+    <style name="AppToolbarTheme" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="searchViewStyle">@style/AppToolbarSearchView</item>
+        <item name="android:textColorSecondary">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="AppDrawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="color">?android:attr/textColorPrimary</item>
+    </style>
+
+    <!-- =================== -->
+    <!-- Preference dataGenerators   -->
+    <!-- =================== -->
+    <style name="AppPreferenceThemeOverlay" parent="PreferenceThemeOverlay">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="preferenceFragmentCompatStyle">@style/PreferenceFragment.NoDivider</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.AppCompat.Medium</item>
+    </style>
+
+    <style name="PreferenceFragment.NoDivider">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:divider">@null</item>
+    </style>
+
+    <!-- ================== -->
+    <!-- Search view styles -->
+    <!-- ================== -->
+    <style name="AppToolbarSearchView" parent="Widget.AppCompat.SearchView.ActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="queryHint">@string/title_activity_search</item>
+    </style>
+
+    <!-- ============= -->
+    <!-- Widget styles -->
+    <!-- ============= -->
+    <style name="AppProgressBarHorizontalStyle" parent="Base.Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">6dp</item>
+        <item name="android:minHeight">2dp</item>
+        <item name="android:maxHeight">6dp</item>
+        <item name="android:progressDrawable">@drawable/progress</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Rating" parent="ThemeOverlay.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorAccent">@color/orange400</item>
+    </style>
+
+
+    <style name="TextAppearance.App.Large" parent="TextAppearance.AppCompat.Large">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="TextAppearance.App.Small" parent="TextAppearance.AppCompat.Small">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textSize">?attr/contentTextSize</item>
+    </style>
+
+    <style name="TextAppearance.App.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textSize">?attr/titleTextSize</item>
+    </style>
+
+    <style name="TextAppearance.App.Subtitle" parent="TextAppearance.AppCompat.Caption">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textSize">?attr/subtitleTextSize</item>
+    </style>
+
+    <style name="TextAppearance.App.Subtitle.Italic">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="TextAppearance.App.Empty" parent="TextAppearance.AppCompat.Headline">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+
+    <!-- =========== -->
+    <!-- Card styles -->
+    <!-- =========== -->
+    <style name="BaseAppCardView" parent="CardView">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="AppCardView" parent="BaseAppCardView">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+    <style name="HeadlineTextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Headline</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">@dimen/padding</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="textContentStyle">
+        <item name="android:textAppearance">@style/TextAppearance.App.Small</item>
+    </style>
+</resources>
