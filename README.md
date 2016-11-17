@@ -23,7 +23,7 @@ You can download the latest demo APK from here: https://github.com/bkhezry/Extra
 ##1. Provide the gradle dependency
 
 
-##2. Add your drawer
+##2. Add your code
 
 
 #Additional Setup
