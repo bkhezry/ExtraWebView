@@ -1,6 +1,7 @@
 # Extra WebView Library
 ##the flexible and easy to use WebView library with beautiful themes.
 [![](https://jitpack.io/v/bkhezry/ExtraWebView.svg)](https://jitpack.io/#bkhezry/ExtraWebView)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ExtraWebView-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/4665)
 ###A quick overview
 - compatible with **API Level 17**
 - **RTL** support
