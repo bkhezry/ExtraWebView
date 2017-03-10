@@ -35,7 +35,7 @@ allprojects {
 Add the dependency:
 ```gradle
 dependencies {
-	compile 'com.github.bkhezry:ExtraWebView:1.2.1'
+	compile 'com.github.bkhezry:ExtraWebView:1.2.3'
 }
 ```
 
