@@ -155,7 +155,7 @@ public class ItemActivity extends InjectableActivity {
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.setType("text/plain");
             shareIntent.putExtra(Intent.EXTRA_TEXT, dataModel.getUrl());
-            startActivity(Intent.createChooser(shareIntent, "به اشتراک‌گذاری آدرس مقاله"));
+            startActivity(Intent.createChooser(shareIntent, getResources().getString(R.string.share)));
             return true;
         }
         return super.onOptionsItemSelected(item);

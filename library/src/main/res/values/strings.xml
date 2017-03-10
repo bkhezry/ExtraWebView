@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">Materialistic</string>
-    <string name="title_activity_item">Comments</string>
     <string name="filter_title_item">Materialistic</string>
     <string name="view_in_browser">View in external browser</string>
-    <string name="share">Share</string>
+    <string name="share">Share via</string>
     <string name="clear_all">Clear all</string>
     <string name="title_activity_search">Search</string>
     <string name="article">Article</string>
