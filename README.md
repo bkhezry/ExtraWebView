@@ -1,9 +1,9 @@
 # Extra WebView Library
-##the flexible and easy to use WebView library with beautiful themes.
+## the flexible and easy to use WebView library with beautiful themes.
 [![](https://jitpack.io/v/bkhezry/ExtraWebView.svg)](https://jitpack.io/#bkhezry/ExtraWebView)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ExtraWebView-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/4665)
 [![Build Status](https://travis-ci.org/bkhezry/ExtraWebView.svg?branch=master)](https://travis-ci.org/bkhezry/ExtraWebView)
-###A quick overview
+### A quick overview
 - compatible with **API Level 17**
 - **RTL** support
 - **multi theme** support
@@ -12,18 +12,18 @@
 - search in page support
 - with **Bookmark** and **Vote** icon that handle with **EventBus** library
 
-#Preview
-##Demo
+# Preview
+## Demo
 You can download the latest demo APK from here: https://github.com/bkhezry/ExtraWebView/blob/master/assets/DemoExtraWebView-last.apk
 
-##Screenshots
+## Screenshots
 <img src="assets/screenshot_1.png" />
 <img src="assets/screenshot_2.png" />
-###full screen mode
+### full screen mode
 <img src="assets/screenshot_3.png" width="350px"/>
 
-#Setup
-##1. Provide the gradle dependency
+# Setup
+## 1. Provide the gradle dependency
 Add it in your root build.gradle at the end of repositories:
 ```gradle
 allprojects {
@@ -40,7 +40,7 @@ dependencies {
 }
 ```
 
-##2. Add your code
+## 2. Add your code
 add ItemActivity to AndroidManifest.xml
 ```xml
  <activity
@@ -99,7 +99,7 @@ after that new activity start with WebView ui
 
 List of theme name: `light`, `dark`, `sepia`, `green`, `solarized` and `solarized_dark`
 [ThemePreference.java](https://github.com/bkhezry/ExtraWebView/blob/master/library/src/main/java/com/github/bkhezry/extrawebview/data/ThemePreference.java)
-#Additional Setup
+# Additional Setup
 you can handle bookmark and vote icon click event.
 add this code to onCreate method of activity:
 ```java
@@ -123,18 +123,18 @@ when each icon has been clicked, EventBus return object of IntentServiceResult.
 |id|Long|current post id |
 |typeEvent|String| BOOKMARK or VOTE|
 |isChecked|boolean|status of icon. if true icon is checked |
-#Credits
+# Credits
 
 - Ha Duy Trung - [GitHub](https://github.com/hidroh)
 	- A material-design Hacker News Android reader [Materialistic for Hacker News](https://github.com/hidroh/materialistic)
 
-#Developed By
+# Developed By
 
 * Behrouz Khezry
  * [@bkhezry](https://twitter.com/bkhezry) 
 
 
-#License
+# License
 
     Copyright 2016 Behrouz Khezry
 
