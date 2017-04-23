@@ -127,6 +127,10 @@ when each icon has been clicked, EventBus return object of IntentServiceResult.
 
 - Ha Duy Trung - [GitHub](https://github.com/hidroh)
 	- A material-design Hacker News Android reader [Materialistic for Hacker News](https://github.com/hidroh/materialistic)
+	
+## Demo App using this library
+- [jadi.net](https://jadi.net) - [GitHub](https://github.com/bkhezry/Jadi_Net)
+- [hive.ir](https://hive.ir)  - [GitHub](https://github.com/bkhezry/hive_ir)
 
 # Developed By
 
