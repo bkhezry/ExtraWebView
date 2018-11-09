@@ -27,22 +27,22 @@ android {
 }
 
 ext {
-    supportVersion = '1.0.0-beta01'
+    supportVersion = '1.0.0'
     daggerVersion = '1.2.5'
 }
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation "androidx.appcompat:appcompat:$supportVersion",
-            "androidx.recyclerview:recyclerview:$supportVersion",
-            "androidx.cardview:cardview:$supportVersion",
-            "com.google.android.material:material:$supportVersion",
-            "androidx.preference:preference:$supportVersion",
-            "androidx.browser:browser:$supportVersion",
-            "com.squareup.dagger:dagger:$daggerVersion",
-            "org.greenrobot:eventbus:3.0.0",
-            "uk.co.chrisjenx:calligraphy:2.2.0",
-            "com.github.bkhezry:PagerSlidingTabStrip:v1.1.1"
+    implementation "androidx.appcompat:appcompat:$supportVersion"
+    implementation "androidx.recyclerview:recyclerview:$supportVersion"
+    implementation "androidx.cardview:cardview:$supportVersion"
+    implementation "com.google.android.material:material:$supportVersion"
+    implementation "androidx.preference:preference:$supportVersion"
+    implementation "androidx.browser:browser:$supportVersion"
+    implementation "com.squareup.dagger:dagger:$daggerVersion"
+    implementation "org.greenrobot:eventbus:3.0.0"
+    implementation "uk.co.chrisjenx:calligraphy:2.3.0"
+    implementation "com.github.bkhezry:PagerSlidingTabStrip:v1.1.1"
     annotationProcessor "com.squareup.dagger:dagger-compiler:$daggerVersion"
 }
 
