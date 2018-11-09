@@ -16,7 +16,7 @@
 package com.github.bkhezry.demo.model;
 
 
-import android.support.annotation.ColorInt;
+import androidx.annotation.ColorInt;
 
 public class SampleData {
     private String url;

@@ -15,9 +15,9 @@
  */
 package com.github.bkhezry.extrawebview.data;
 
-import android.support.annotation.ColorInt;
-
 import java.io.Serializable;
+
+import androidx.annotation.ColorInt;
 
 /**
  * some parameter need for WebView ui.

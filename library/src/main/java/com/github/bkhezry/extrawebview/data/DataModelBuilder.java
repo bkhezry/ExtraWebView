@@ -15,11 +15,11 @@
  */
 package com.github.bkhezry.extrawebview.data;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 /**
  * data model Builder. use to generate DataModel class as fluent interface.

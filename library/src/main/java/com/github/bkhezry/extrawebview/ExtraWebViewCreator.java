@@ -17,11 +17,11 @@ package com.github.bkhezry.extrawebview;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.annotation.ColorInt;
 
 import com.github.bkhezry.extrawebview.data.DataModel;
 import com.github.bkhezry.extrawebview.data.ViewOption;
 
+import androidx.annotation.ColorInt;
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
 public class ExtraWebViewCreator {

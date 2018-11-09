@@ -2,12 +2,6 @@ package com.github.bkhezry.extrawebview.widget;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.view.ViewGroup;
 
 import com.astuetz.PagerSlidingTabStrip;
@@ -17,6 +11,13 @@ import com.github.bkhezry.extrawebview.R;
 import com.github.bkhezry.extrawebview.Scrollable;
 import com.github.bkhezry.extrawebview.WebFragment;
 import com.github.bkhezry.extrawebview.data.DataModel;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentStatePagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 
 

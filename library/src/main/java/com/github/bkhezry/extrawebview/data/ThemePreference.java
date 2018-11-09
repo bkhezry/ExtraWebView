@@ -15,12 +15,12 @@
  */
 package com.github.bkhezry.extrawebview.data;
 
-import android.support.annotation.StyleRes;
-
 import com.github.bkhezry.extrawebview.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+
+import androidx.annotation.StyleRes;
 
 
 /**

@@ -22,13 +22,6 @@ import android.content.IntentFilter;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v4.app.Fragment;
-import android.support.v4.content.LocalBroadcastManager;
-import android.support.v7.app.ActionBar;
-import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.text.method.LinkMovementMethod;
 import android.view.KeyEvent;
@@ -47,11 +40,18 @@ import com.github.bkhezry.extrawebview.data.IntentServiceResult;
 import com.github.bkhezry.extrawebview.data.ViewOption;
 import com.github.bkhezry.extrawebview.widget.ItemPagerAdapter;
 import com.github.bkhezry.extrawebview.widget.ViewPager;
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import org.greenrobot.eventbus.EventBus;
 
 import javax.inject.Inject;
 
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.Fragment;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class ItemActivity extends InjectableActivity {

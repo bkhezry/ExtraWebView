@@ -1,12 +1,13 @@
 package com.github.bkhezry.extrawebview.widget;
 
 import android.content.Context;
-import android.support.annotation.IdRes;
-import android.support.annotation.MenuRes;
-import android.support.annotation.StringRes;
 import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
+
+import androidx.annotation.IdRes;
+import androidx.annotation.MenuRes;
+import androidx.annotation.StringRes;
 
 public interface PopupMenu {
     /**
@@ -79,11 +80,11 @@ public interface PopupMenu {
     }
 
     class Impl implements PopupMenu {
-        private android.support.v7.widget.PopupMenu mSupportPopupMenu;
+      private androidx.appcompat.widget.PopupMenu mSupportPopupMenu;
 
         @Override
         public PopupMenu create(Context context, View anchor, int gravity) {
-            mSupportPopupMenu = new android.support.v7.widget.PopupMenu(context, anchor, gravity);
+          mSupportPopupMenu = new androidx.appcompat.widget.PopupMenu(context, anchor, gravity);
             return this;
         }
 
@@ -107,7 +108,7 @@ public interface PopupMenu {
 
         @Override
         public PopupMenu setOnMenuItemClickListener(final OnMenuItemClickListener listener) {
-            mSupportPopupMenu.setOnMenuItemClickListener(new android.support.v7.widget.PopupMenu.OnMenuItemClickListener() {
+          mSupportPopupMenu.setOnMenuItemClickListener(new androidx.appcompat.widget.PopupMenu.OnMenuItemClickListener() {
                 @Override
                 public boolean onMenuItemClick(MenuItem item) {
                     return false;

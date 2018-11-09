@@ -16,9 +16,10 @@
 package com.github.bkhezry.extrawebview;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 
 import com.github.bkhezry.extrawebview.data.DataModel;
+
+import androidx.annotation.Nullable;
 
 
 public class WebFragment extends BaseWebFragment {

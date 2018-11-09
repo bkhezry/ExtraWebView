@@ -2,9 +2,7 @@ package com.github.bkhezry.extrawebview.widget;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-
 import android.os.Build;
-import android.support.annotation.CallSuper;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.webkit.WebChromeClient;
@@ -13,6 +11,8 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 import java.util.Map;
+
+import androidx.annotation.CallSuper;
 
 
 public class CacheableWebView extends WebView {

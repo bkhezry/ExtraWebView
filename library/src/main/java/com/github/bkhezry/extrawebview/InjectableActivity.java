@@ -16,8 +16,8 @@
 package com.github.bkhezry.extrawebview;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
+import androidx.appcompat.app.AppCompatActivity;
 import dagger.ObjectGraph;
 
 public abstract class InjectableActivity extends AppCompatActivity implements Injectable {

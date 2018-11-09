@@ -9,9 +9,6 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.content.LocalBroadcastManager;
-import android.support.v4.widget.NestedScrollView;
 import android.text.TextUtils;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -30,6 +27,9 @@ import android.widget.ViewSwitcher;
 
 import com.github.bkhezry.extrawebview.widget.CacheableWebView;
 
+import androidx.annotation.Nullable;
+import androidx.core.widget.NestedScrollView;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import static android.view.View.GONE;
 import static android.view.View.VISIBLE;

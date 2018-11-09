@@ -17,9 +17,10 @@ package com.github.bkhezry.extrawebview;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.Menu;
 import android.view.MenuInflater;
+
+import androidx.fragment.app.Fragment;
 
 public abstract class BaseFragment extends Fragment {
     protected final MenuTintDelegate mMenuTintDelegate = new MenuTintDelegate();

@@ -17,16 +17,18 @@ package com.github.bkhezry.extrawebview;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
-import android.support.annotation.IntDef;
-import android.support.design.widget.AppBarLayout;
-import android.support.v4.widget.NestedScrollView;
-import android.support.v7.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.view.KeyEvent;
 import android.view.View;
 
+import com.google.android.material.appbar.AppBarLayout;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
+
+import androidx.annotation.IntDef;
+import androidx.core.widget.NestedScrollView;
+import androidx.preference.PreferenceManager;
 
 
 /**

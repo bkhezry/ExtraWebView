@@ -17,15 +17,16 @@ package com.github.bkhezry.extrawebview;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.support.annotation.StringRes;
-import android.support.annotation.StyleRes;
-import android.support.v7.preference.PreferenceManager;
 
 import com.github.bkhezry.extrawebview.data.ThemePreference;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+
+import androidx.annotation.StringRes;
+import androidx.annotation.StyleRes;
+import androidx.preference.PreferenceManager;
 
 
 

@@ -16,11 +16,12 @@
 package com.github.bkhezry.demo.model;
 
 import android.content.Context;
-import android.support.v4.content.ContextCompat;
 
 import com.github.bkhezry.demo.R;
 
 import java.util.ArrayList;
+
+import androidx.core.content.ContextCompat;
 
 public class DataGenerator {
     private Context mContext;
