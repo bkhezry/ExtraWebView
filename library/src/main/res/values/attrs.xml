@@ -23,6 +23,6 @@
     <attr name="contentTextSize" format="dimension|reference" />
     <attr name="preferenceHelpStyle" format="reference" />
     <declare-styleable name="IconButton">
-        <attr name="tint" format="reference" />
+        <attr name="tintChanged" format="reference" />
     </declare-styleable>
 </resources>

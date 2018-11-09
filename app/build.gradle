@@ -22,14 +22,16 @@ ext {
     supportVersion = '28.0.0'
 }
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile project(':library')
-    compile "com.android.support:appcompat-v7:$supportVersion",
+    implementation project(':library')
+    implementation "com.android.support:appcompat-v7:$supportVersion",
             "com.android.support:design:$supportVersion",
             "com.android.support:support-v4:$supportVersion",
-            "com.android.support:recyclerview-v7:$supportVersion"
-    testCompile 'junit:junit:4.12'
+            "com.android.support:recyclerview-v7:$supportVersion",
+            "uk.co.chrisjenx:calligraphy:2.2.0",
+            "org.greenrobot:eventbus:3.0.0"
+    testImplementation 'junit:junit:4.12'
 }

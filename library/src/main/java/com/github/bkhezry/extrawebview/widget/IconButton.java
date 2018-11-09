@@ -37,9 +37,9 @@ public class IconButton extends ImageButton {
                 AppUtils.getThemedResId(context, android.R.attr.textColorSecondary));
         int colorDefault = ContextCompat.getColor(context,
                 AppUtils.getThemedResId(context, android.R.attr.textColorPrimary));
-        int colorEnabled = ta.getColor(R.styleable.IconButton_tint, colorDefault);
+        int colorEnabled = ta.getColor(R.styleable.IconButton_tintChanged, colorDefault);
         mColorStateList = new ColorStateList(STATES, new int[]{colorEnabled, colorDisabled});
-        mTinted = ta.hasValue(R.styleable.IconButton_tint);
+        mTinted = ta.hasValue(R.styleable.IconButton_tintChanged);
         if (getSuggestedMinimumWidth() == 0) {
             setMinimumWidth(context.getResources().getDimensionPixelSize(R.dimen.icon_button_width));
         }
