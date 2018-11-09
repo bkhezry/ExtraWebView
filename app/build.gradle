@@ -7,8 +7,8 @@ android {
         applicationId "com.github.bkhezry.demo"
         minSdkVersion 17
         targetSdkVersion 28
-        versionCode 12
-        versionName "1.1.2"
+        versionCode 125
+        versionName "1.2.5"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
